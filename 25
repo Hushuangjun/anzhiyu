@@ -1,0 +1,259 @@
+[33mcommit e8ea150d6195b475030e54d14787c1ebd32bdbbd[m[33m ([m[1;36mHEAD -> [m[1;32mdev[m[33m, [m[1;31morigin/dev[m[33m, [m[1;31morigin/HEAD[m[33m)[m
+Merge: 0acd86d 250bb68
+Author: anzhiyu-c <me@anheyu.com>
+Date:   Sat Dec 23 14:00:54 2023 +0800
+
+    Merge branch 'dev' of github.com:anzhiyu-c/hexo-theme-anzhiyu into dev
+
+[33mcommit 0acd86ded683edaa50e951d984af766b48083abe[m
+Author: anzhiyu-c <me@anheyu.com>
+Date:   Sat Dec 23 14:00:47 2023 +0800
+
+    支持music页面默认加载自定义歌单
+
+[33mcommit 250bb686f5c78f38bd47f251635dd3165e74979b[m
+Merge: c09645b d05590c
+Author: 陈志伟 <73864136+anzhiyu-c@users.noreply.github.com>
+Date:   Wed Dec 13 21:31:10 2023 +0800
+
+    Merge pull request #172 from EmptyDreams/patch-1
+    
+    修改规则文件，删除与默认值相同的配置项，添加 skipRequest
+
+[33mcommit d05590cea85da64176036fc752ab3b3bf9fdb37d[m
+Author: 空梦 <minedreams@qq.com>
+Date:   Wed Dec 13 21:15:56 2023 +0800
+
+    修改规则文件，删除与默认值相同的配置项，添加 skipRequest
+
+[33mcommit c09645b0a296278a07dde623fb8515621ed42364[m
+Author: anzhiyu-c <me@anheyu.com>
+Date:   Mon Dec 11 22:37:10 2023 +0800
+
+    更新twikoo版本
+
+[33mcommit a058ce5f797588956b3188a4e94a4ead95598b76[m
+Author: anzhiyu-c <me@anheyu.com>
+Date:   Mon Dec 11 22:35:48 2023 +0800
+
+    更新twikoo版本
+
+[33mcommit 098795112d3cb00ad084d4308566c256663b8275[m[33m ([m[1;33mtag: 1.6.12[m[33m, [m[1;31morigin/main[m[33m)[m
+Author: anzhiyu-c <me@anheyu.com>
+Date:   Wed Dec 6 18:56:11 2023 +0800
+
+    更新1.6.12版本
+
+[33mcommit be8d54866495b1e0b7134a2f8422e1e6035ddc83[m
+Author: anzhiyu-c <me@anheyu.com>
+Date:   Wed Dec 6 18:55:54 2023 +0800
+
+    优化nav项目动效
+
+[33mcommit b5d0d4c40f657ffd3e8e9be395015ae6f5109669[m
+Author: anzhiyu-c <me@anheyu.com>
+Date:   Wed Dec 6 18:45:00 2023 +0800
+
+    支持音乐球默认音量 close #166
+
+[33mcommit ec8dcd7dc726e79b7047cce56da91f508ff4f905[m
+Author: anzhiyu-c <me@anheyu.com>
+Date:   Wed Dec 6 18:38:37 2023 +0800
+
+    修复banner-button在safair下的超出问题 fix #163
+
+[33mcommit 5c714fdb65cef0f01d67963e75f56e64ab526363[m
+Author: anzhiyu-c <me@anheyu.com>
+Date:   Wed Dec 6 18:24:47 2023 +0800
+
+    修复适配hexo7代码块样式缺失问题
+    更新默认配置，默认不启用noticeOutdate
+
+[33mcommit f59a5b4986764c65dc2ed6cb1e4fd227ae4d574b[m[33m ([m[1;33mtag: 1.6.11[m[33m)[m
+Author: anzhiyu-c <me@anheyu.com>
+Date:   Tue Dec 5 10:29:42 2023 +0800
+
+    更新1.6.11
+
+[33mcommit 727ddb85de97fbdcbcdc06cadd67d71e0b0cbd8a[m
+Merge: 006fe80 abc960a
+Author: 陈志伟 <73864136+anzhiyu-c@users.noreply.github.com>
+Date:   Mon Dec 4 15:44:21 2023 +0800
+
+    Merge pull request #161 from zhx47/dev
+    
+    文章页支持Artalk评论数量统计
+
+[33mcommit abc960ae5b80ebda0762149aa6b3e02a09d35056[m
+Merge: cad3ff2 006fe80
+Author: zhx47 <61264955+zhx47@users.noreply.github.com>
+Date:   Sat Dec 2 21:02:53 2023 +0800
+
+    Merge branch 'anzhiyu-c:dev' into dev
+
+[33mcommit 006fe80383dc921f9a3266edf91d03490b591d50[m
+Author: anzhiyu-c <me@anheyu.com>
+Date:   Sat Dec 2 18:17:22 2023 +0800
+
+    支持hexo7，修复代码块样式识别问题，升级相关插件
+
+[33mcommit cad3ff2ce868c4da7821c57120618693ba1c58de[m
+Author: zhx47 <2758887317@qq.com>
+Date:   Sat Dec 2 18:06:39 2023 +0800
+
+    恢复配置代码
+
+[33mcommit 5e747567ed78c990d175944ed73bf126982d98f7[m
+Author: zhx47 <61264955+zhx47@users.noreply.github.com>
+Date:   Sat Dec 2 17:58:32 2023 +0800
+
+    文章页支持Artalk评论数量统计
+
+[33mcommit 206edf540818dc6e1200069e0186864817751cad[m
+Author: anzhiyu-c <me@anheyu.com>
+Date:   Thu Nov 30 17:34:06 2023 +0800
+
+    修复TOC元素点击被hearder遮挡的问题 fix #154
+
+[33mcommit c9f04abd710165e439a057a5261692830b5aa447[m
+Merge: 9ba8f8c 806e556
+Author: anzhiyu-c <me@anheyu.com>
+Date:   Thu Nov 30 17:16:42 2023 +0800
+
+    Merge branch 'dev' of github.com:anzhiyu-c/hexo-theme-anzhiyu into dev
+
+[33mcommit 9ba8f8ce4186aebd5e8db73e15dbef29147852ca[m
+Author: anzhiyu-c <me@anheyu.com>
+Date:   Thu Nov 30 17:16:36 2023 +0800
+
+    修复不使用highlight时的正文标题
+
+[33mcommit 806e5565b0e2516ba66b40d0c6063db33852cf5d[m
+Merge: f9474df 1f1863d
+Author: 陈志伟 <73864136+anzhiyu-c@users.noreply.github.com>
+Date:   Fri Nov 24 23:16:27 2023 +0800
+
+    Merge pull request #153 from zhx47/dev
+    
+    更新artalk插件版本号
+
+[33mcommit 1f1863d3958b2b38500abd80eead44078676d9b3[m
+Author: zhx47 <61264955+zhx47@users.noreply.github.com>
+Date:   Fri Nov 24 23:11:35 2023 +0800
+
+    更新artalk插件版本号
+    
+    解决新版本更新提示
+
+[33mcommit f9474df38c8c4d9232d73c0ad50872a404153dac[m[33m ([m[1;33mtag: 1.6.10[m[33m)[m
+Author: anzhiyu-c <me@anheyu.com>
+Date:   Fri Nov 24 23:11:28 2023 +0800
+
+    更新主题1.6.10
+
+[33mcommit 139517c9dcb18efa7ef3499b1a9e5c713f0d7174[m
+Author: anzhiyu-c <me@anheyu.com>
+Date:   Fri Nov 24 22:41:48 2023 +0800
+
+    修复相册集按钮文字过长情况超出
+
+[33mcommit ded39e0b3e7d839ab5f8ac3230f21c4a0e659375[m
+Author: anzhiyu-c <me@anheyu.com>
+Date:   Fri Nov 24 22:38:12 2023 +0800
+
+    移除无用变量
+
+[33mcommit a92e201d88a2b9cae1d822ef2a7d9091ea465ad9[m
+Author: anzhiyu-c <me@anheyu.com>
+Date:   Mon Nov 20 12:51:15 2023 +0800
+
+    修复icon_label
+
+[33mcommit 36c6110bd471627178d65a6952d79bb8e6886e7b[m
+Author: anzhiyu-c <me@anheyu.com>
+Date:   Sun Nov 19 14:51:18 2023 +0800
+
+    修复twikoo 在友链页面时的表情框样式异常
+    审计twikoo版本
+
+[33mcommit ce9d78d8f9e911505d9c6c85662497ac08fc5151[m
+Author: anzhiyu-c <me@anheyu.com>
+Date:   Sun Nov 19 14:07:03 2023 +0800
+
+    修复人潮汹涌 pjax适配问题 fix #117
+
+[33mcommit 442da2632feb0dd9495784ac74aaf7e2607adb64[m
+Author: anzhiyu-c <me@anheyu.com>
+Date:   Sun Nov 19 13:58:03 2023 +0800
+
+    优化右键菜单的边界判断问题
+    修复 toc超出的问题 fix #123
+
+[33mcommit a1f7f035618b5f41a0efe8cb234dcbd2dc344edb[m
+Author: anzhiyu-c <me@anheyu.com>
+Date:   Sun Nov 19 13:36:42 2023 +0800
+
+    修复控制台关闭时，无法打开赞赏的bug fix #149
+
+[33mcommit dbfcce24d7058ea96a850239c72636957321dd42[m
+Author: anzhiyu-c <me@anheyu.com>
+Date:   Sun Nov 19 13:30:53 2023 +0800
+
+      【home_top】修复分类点击支持url_for，相对路径
+      【主色调】修复主色调未开启时，默认配置下的侧漏色调
+      【加载头像】加载头像默认使用站点头像，可单独配置加载头像
+
+[33mcommit 44573595f927b29d15731fb9444673f2e33b33ef[m
+Author: anzhiyu-c <me@anheyu.com>
+Date:   Sun Nov 19 12:55:47 2023 +0800
+
+    修复图像alt
+
+[33mcommit 4c7f4b9b04c9b6984309e9726199b57e51636915[m[33m ([m[1;33mtag: 1.6.9[m[33m)[m
+Author: anzhiyu-c <me@anheyu.com>
+Date:   Mon Nov 6 20:02:34 2023 +0800
+
+    更新主题1.6.9版本
+
+[33mcommit c1f8cae0a8fbafe37ad654afeab7dffce96cf323[m
+Author: anzhiyu-c <me@anheyu.com>
+Date:   Mon Nov 6 20:00:52 2023 +0800
+
+    修复部分页面字体过小的问题
+    适配新版朋友圈
+
+[33mcommit 94621f20bd6a5303583512fc92f93e534dd3f130[m
+Merge: cefa294 1e27c66
+Author: anzhiyu-c <me@anheyu.com>
+Date:   Tue Oct 31 14:33:34 2023 +0800
+
+    Merge branch 'dev' of github.com:anzhiyu-c/hexo-theme-anzhiyu into dev
+
+[33mcommit cefa294d7a2a844027b4a71e898bc5ab09ff4620[m
+Author: anzhiyu-c <me@anheyu.com>
+Date:   Tue Oct 31 14:33:29 2023 +0800
+
+    优化适配朋友圈
+    优化最小文字显示
+
+[33mcommit 1e27c66dcf8999132a2ea5912497a3c1f296b32b[m
+Merge: 43c7597 2afba81
+Author: 陈志伟 <73864136+anzhiyu-c@users.noreply.github.com>
+Date:   Tue Oct 24 19:30:10 2023 +0800
+
+    Merge pull request #143 from Joker2Yue/dev
+    
+    修复在移动端 banner-button-group错乱的情况
+
+[33mcommit 43c7597561bc4d48c984367407a1c12f99a20d08[m
+Merge: bbe0561 323fbb6
+Author: 陈志伟 <73864136+anzhiyu-c@users.noreply.github.com>
+Date:   Tue Oct 24 19:28:38 2023 +0800
+
+    Merge pull request #142 from nixgnauhcuy/dev
+    
+    修复部分页面未应用主题 `config - font-family` 的 bug
+
+[33mcommit 2afba81be1c091ca9413c7a788017c1cc4aa4361[m
+Merge: 1756dc7 bbe0561
+Author: JokerYue <Joker_Yue@qq.com
