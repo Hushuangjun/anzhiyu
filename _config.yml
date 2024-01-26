@@ -4,15 +4,15 @@ menu:
     分类: /categories/ || anzhiyu-icon-shapes
     标签: /tags/ || anzhiyu-icon-tags
 
-  # 友链:
+  友链:
   #   友人帐: /link/ || anzhiyu-icon-link
   #   朋友圈: /fcircle/ || anzhiyu-icon-artstation
-  #   留言板: /comments/ || anzhiyu-icon-envelope
+    留言板: /comments/ || anzhiyu-icon-envelope
 
-  # 我的:
+  我的:
   #   音乐馆: /music/ || anzhiyu-icon-music
   #   追番页: /bangumis/ || anzhiyu-icon-bilibili
-  #   相册集: /album/ || anzhiyu-icon-images
+    相册集: /album/ || anzhiyu-icon-images
   #   小空调: /air-conditioner/ || anzhiyu-icon-fan
 
   关于:
@@ -22,20 +22,20 @@ menu:
 
 # nav相关配置
 nav:
-  enable: false
+  enable: true
   travelling: false
   clock: false
   menu:
     - title: 网页
       item:
         - name: 博客
-          link: https://blog.anheyu.com/
+          link: https://www.husj0711.top/
           icon: /img/favicon.ico
-    - title: 项目
-      item:
-        - name: 安知鱼图床
-          link: https://image.anheyu.com/
-          icon: https://image.anheyu.com/favicon.ico
+    # - title: 项目
+    #   item:
+    #     - name: 安知鱼图床
+    #       link: https://image.anheyu.com/
+    #       icon: https://image.anheyu.com/favicon.ico
 
 # mourn （哀悼日，指定日期网站简单变灰，不包括滚动条）
 # 注意： 仅网站首页变灰，其他页面正常显示
@@ -129,7 +129,7 @@ mathjax:
 # KaTeX
 katex:
   enable: false
-  per_page: false
+  per_page: true
   hide_scrollbar: true
 
 # Image (图片设置)
@@ -193,7 +193,7 @@ post_meta:
 # 主色调相关配置
 mainTone:
   enable: true # true or false 文章是否启用获取图片主色调
-  mode: api # cdn/api/both cdn模式为图片url+imageAve参数获取主色调，api模式为请求API获取主色调，both模式会先请求cdn参数，无法获取的情况下将请求API获取，可以在文章内配置main_color: '#3e5658'，使用十六进制颜色，则不会请求both/cdn/api获取主色调，而是直接使用配置的颜色
+  mode: both # cdn/api/both cdn模式为图片url+imageAve参数获取主色调，api模式为请求API获取主色调，both模式会先请求cdn参数，无法获取的情况下将请求API获取，可以在文章内配置main_color: '#3e5658'，使用十六进制颜色，则不会请求both/cdn/api获取主色调，而是直接使用配置的颜色
   # 项目地址：https://github.com/anzhiyu-c/img2color-go
   api: https://img2color-go.vercel.app/api?img= # mode为api时可填写
   cover_change: true # 整篇文章跟随cover修改主色调
@@ -286,7 +286,7 @@ post_pagination: 2
 
 # Displays outdated notice for a post (文章过期提醒)
 noticeOutdate:
-  enable: false
+  enable: true
   style: flat # style: simple/flat
   limit_day: 365 # When will it be shown
   position: top # position: top/bottom
@@ -349,7 +349,7 @@ valine:
 # waline - A simple comment system with backend support fork from Valine
 # https://waline.js.org/
 waline:
-  serverURL: comment.husj0711.top # Waline server address url
+  serverURL: https://comment.husj0711.top # Waline server address url
   bg: # waline background
   pageview: false
   meta: true # 归属地, 操作系统 前是否显示图标
@@ -628,7 +628,7 @@ sidebar:
   nav_menu_project: true
 
 # 文章h2添加分隔线
-h2Divider: false
+h2Divider: true
 
 # 表格隔行变色
 table_interlaced_discoloration: false
@@ -797,7 +797,7 @@ aside:
     name_link: /
 
   card_announcement:
-    enable: false
+    enable: true
     content: 欢迎来看我的博客鸭~
   card_weixin:
     enable: false
@@ -852,7 +852,7 @@ newest_comments:
   enable: true
   sort_order: # Don't modify the setting unless you know how it works
   limit: 6
-  storage: 10 # unit: mins, save data to localStorage
+  storage: 5 # unit: mins, save data to localStorage
   avatar: true
 
 # Bottom right button (右下角按钮)
@@ -1036,8 +1036,8 @@ home_top:
   enable: true # 开关
   timemode: date #date/updated
   title: 生活明朗
-  subTitle: 万物可爱。
-  siteText: husj0711.top
+  subTitle: 万物可爱!
+  siteText: 欢迎欢迎(●ˇ∀ˇ●)！
   category:
     - name: 结构设计学习
       path: /categories/结构设计学习/
@@ -1063,7 +1063,7 @@ home_top:
     tips: 新的一年
     title: 家人身体健康！
     image: https://ooo.0x0.ooo/2024/01/01/OK8D3r.jpg
-    link: charmhu.mailchimpsites.com
+    link: https://charmhu.mailchimpsites.com/
 
 # 朋友圈配置
 friends_vue:
@@ -1112,7 +1112,7 @@ comment_barrage_config:
 # 左下角音乐配置项
 # https://github.com/metowolf/MetingJS
 nav_music:
-  enable: true
+  enable: false
   console_widescreen_music: false # 宽屏状态控制台显示音乐而不是标签 enable为true 控制台依然会显示
   id: 8152976493
   server: netease
@@ -1129,10 +1129,10 @@ visitorMail:
 
 # ptool 文章底部工具
 ptool:
-  enable: false
+  enable: true
   share_mobile: true
-  share_weibo: true
-  share_copyurl: true
+  share_weibo: false
+  share_copyurl: false
   categories: false # 是否显示分类
   mode: # 运营模式与责任，不配置不显示
 
@@ -1209,7 +1209,7 @@ rightClickMenu:
 
 # 首页随便逛逛people模式 而非技能点模式，关闭后为技能点模式需要配置creativity.yml
 peoplecanvas:
-  enable: true
+  enable: false
   img: https://upload-bbs.miyoushe.com/upload/2023/09/03/125766904/ee23df8517f3c3e3efc4145658269c06_5714860933110284659.png
 
 # 动效
@@ -1318,3 +1318,28 @@ CDN:
     # waterfall:
     # ali_iconfont_css:
     # accesskey_js:
+
+
+#envelope_comment
+#seehttps://akilar.top/posts/e2d3c450/
+envelope_comment:
+  enable: true #控制开关
+  custom_pic:
+    cover: https://npm.elemecdn.com/hexo-butterfly-envelope/lib/violet.jpg #信笺头部图片
+    line: https://npm.elemecdn.com/hexo-butterfly-envelope/lib/line.png #信笺底部图片
+    beforeimg: https://npm.elemecdn.com/hexo-butterfly-envelope/lib/before.png # 信封前半部分
+    afterimg: https://npm.elemecdn.com/hexo-butterfly-envelope/lib/after.png # 信封后半部分
+  message: #信笺正文，多行文本，写法如下
+    - 有什么想问的？
+    - 有什么想说的？
+    - 有什么想吐槽的？
+    - 哪怕是有什么想吃的，都可以告诉我哦~
+  bottom: 自动书记人偶竭诚为您服务！ #仅支持单行文本
+  height: #1024px，信封划出的高度
+  path: #【可选】comments 的路径名称。默认为 comments，生成的页面为 comments/index.html
+  front_matter: #【可选】comments页面的 front_matter 配置
+    title: 留言板
+    comments: true
+    top_img: false
+    type: envelope
+
