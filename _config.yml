@@ -5,15 +5,15 @@ menu:
     标签: /tags/ || anzhiyu-icon-tags
 
   友链:
-  #   友人帐: /link/ || anzhiyu-icon-link
+    友人帐: /link/ || anzhiyu-icon-link
   #   朋友圈: /fcircle/ || anzhiyu-icon-artstation
     留言板: /comments/ || anzhiyu-icon-envelope
 
   我的:
-  #   音乐馆: /music/ || anzhiyu-icon-music
+    音乐馆: /music/?id=9246893035&server=netease || anzhiyu-icon-music
   #   追番页: /bangumis/ || anzhiyu-icon-bilibili
     相册集: /album/ || anzhiyu-icon-images
-  #   小空调: /air-conditioner/ || anzhiyu-icon-fan
+    小空调: /air-conditioner/ || anzhiyu-icon-fan
 
   关于:
     关于本人: /about/ || anzhiyu-icon-paper-plane
@@ -793,7 +793,7 @@ aside:
     category: true
   card_author:
     enable: true
-    description: <div style="line-height:1.38;margin:0.6rem 0;text-align:justify;color:rgba(255, 255, 255, 0.8);"><b style="color:#fff">恭喜发现打灰仔一枚😄(●ˇ∀ˇ●)</b></div> # 默认为站点描述
+    description: <div style="line-height:1.38;margin:0.6rem 0;text-align:justify;color:rgba(255, 255, 255, 0.8);"><b style="color:#fff">欢迎访问本站！<br>本站主要分享自己求学路上的一些心得！<br>NexT主题下本站：<br>FancyOUCHu.github.io</b></div> # 默认为站点描述
     name_link: /
 
   card_announcement:
@@ -961,7 +961,7 @@ note:
 
 icons:
   ali_iconfont_js: # 阿里图标symbol 引用链接，主题会进行加载 symbol 引用
-  fontawesome: false #是否启用fontawesome6图标
+  fontawesome: true #是否启用fontawesome6图标
   fontawesome_animation_css: #fontawesome_animation 如果有就会加载，示例值：https://npm.elemecdn.com/hexo-butterfly-tag-plugins-plus@1.0.17/lib/assets/font-awesome-animation.min.css
 
 # other
@@ -1035,9 +1035,9 @@ css_prefix: true
 home_top:
   enable: true # 开关
   timemode: date #date/updated
-  title: 生活明朗
-  subTitle: 万物可爱!
-  siteText: 欢迎欢迎(●ˇ∀ˇ●)！
+  title: 我就是要
+  subTitle: 胜天半子!
+  siteText: anxiety && ambition!
   category:
     - name: 结构设计学习
       path: /categories/结构设计学习/
@@ -1062,7 +1062,7 @@ home_top:
   banner:
     tips: 新的一年
     title: 家人身体健康！
-    image: https://ooo.0x0.ooo/2024/01/01/OK8D3r.jpg
+    image: https://ooo.0x0.ooo/2024/01/31/OvRTk1.jpg
     link: https://charmhu.mailchimpsites.com/
 
 # 朋友圈配置
@@ -1094,8 +1094,8 @@ LA:
 # 标签卖萌
 diytitle:
   enable: true
-  leaveTitle: w(ﾟДﾟ)w 不要走！再看看嘛！
-  backTitle: ♪(^∇^*)欢迎肥来！
+  leaveTitle: 网页崩溃啦！┭┮﹏┭┮
+  backTitle: 噫O(∩_∩)O又好了！
 
 # 留言弹幕配置
 comment_barrage_config:
